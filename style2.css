@@ -1379,6 +1379,7 @@ article.active {
 
 .form-title {
     margin-bottom: 20px;
+    color: var(--eerie-black2);
 }
 
 .input-wrapper {
@@ -1389,11 +1390,11 @@ article.active {
 }
 
 .form-input {
-    color: var(--white2);
+    color: var(--eerie-black1);
     font-size: var(--fs6);
     font-weight: var(--fw400);
     padding: 13px 20px;
-    border: 1px solid var(--jet);
+    border: 1px solid var(--dark-gray);
     border-radius: 14px;
     outline: none;
 }
@@ -1403,12 +1404,12 @@ article.active {
 }
 
 .form-input:focus {
-    border-color: var(--orange-yellow-crayola);
+    border-inline: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.082);
 }
 
-.form-input:focus:invalid {
-    border-color: var(--bittersweet-shimmer);
-}
+
 
 textarea.form-input {
     min-height: 100px;
@@ -1425,8 +1426,8 @@ textarea.form-input::-webkit-realizer {
 .form-btn {
     position: relative;
     width: 100%;
-    background: var(--border-gradient-onyx);
-    color: var(--orange-yellow-crayola);
+    background: rgba(0, 0, 0, 0.34);
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1444,7 +1445,7 @@ textarea.form-input::-webkit-realizer {
     content: '';
     position: absolute;
     inset: 1px;
-    background: var(--bg-gradient-jet);
+    background: rgba(0, 0, 0, 0.68);
     border-radius: inherit;
     z-index: -1;
     transition: var(--transition1);
@@ -1455,11 +1456,11 @@ textarea.form-input::-webkit-realizer {
 }
 
 .form-btn:hover {
-    background: var(--bg-gradient-yellow1);
+    background: rgb(0, 0, 0);
 }
 
 .form-btn::before {
-    background: var(--bg-gradient-yellow2);
+    background: rgba(0, 0, 0, 0.68);
 }
 
 .form-btn:disabled {
