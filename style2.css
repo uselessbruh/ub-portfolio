@@ -1041,8 +1041,12 @@ article.active {
     margin-bottom: 8px;
 }
 
+.skill .title-wrapper h5 {
+    color: black;
+}
+
 .skill .title-wrapper data {
-    color: var(--light-gray);
+    color: var(--dark-gray);
     font-size: var(--fs7);
     font-weight: var(--fw300);
 }
