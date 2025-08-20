@@ -162,7 +162,7 @@ const projectData = {
         link: 'https://github.com/uselessbruh/geng',
         img: '/assets/geng.png'
     },
-    'Tic Tac Toe.': {
+    'Tic Tac Toe': {
         desc: 'This is a full-stack AI gaming project that combines machine learning, web development, and game theory into an engaging Tic Tac Toe experience!',
         link: 'https://github.com/uselessbruh/tic-tac-toe',
         img: '/assets/tictactoe.png'
@@ -201,6 +201,16 @@ const projectData = {
         desc: 'A modern Electron-based code editor inspired by VS Code, featuring a file explorer, Monaco editor, integrated multi-terminal, diagnostics, and output panels, designed for efficient development and seamless user experience.',
         link: 'https://github.com/uselessbruh/nucleoide',
         img: '/assets/nucleoide.png'
+    },
+    'Pairwise Alignment': {
+        desc: 'A Perl GUI application for bioinformatics that performs global & local DNA/RNA sequence alignments using Needleman-Wunsch and Smith-Waterman algorithms. Features NCBI database integration, real-time visual results, and supports FASTA input.',
+        link: 'https://github.com/uselessbruh/pairwise-alignment',
+        img: '/assets/pairwisealignment.png'
+    },
+    'Sequence Analyzer': {
+        desc: 'A Perl-based GUI application for retrieving and analyzing DNA/RNA sequences from NCBI databases. Features include sequence transcription, translation, complement generation, ORF analysis, GC content calculation, and protein structure prediction. Easy-to-use interface with clipboard export and file saving capabilities.',
+        link: 'https://github.com/uselessbruh/sequence-analyzer',
+        img: '/assets/sequenceanalyzer.png'
     }
 };
 

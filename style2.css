@@ -146,7 +146,7 @@ body {
     text-align: center;
 }
 
-.project-link-github{
+.project-link-github {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -362,12 +362,12 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-    background: var(--onyx);
+    background: rgba(0, 0, 0, 0.123);
     border-radius: 5px;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-    background: var(--orange-yellow-crayola);
+    background: black;
     border-radius: 5px;
 }
 
@@ -1012,6 +1012,7 @@ article.active {
     align-items: center;
     gap: 10px;
     color: var(--dark-gray);
+    width: max-content;
 }
 
 .references-credits a:hover {
@@ -1071,8 +1072,8 @@ article.active {
 }
 
 .filter-select {
-    background: var(--eerie-black2);
-    color: var(--light-gray);
+    background: rgba(0, 0, 0, 0.062);
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1082,6 +1083,7 @@ article.active {
     border-radius: 14px;
     font-size: var(--fs6);
     font-weight: var(--fw300);
+    backdrop-filter: blur(10px);
 }
 
 .filter-select.active .select-icon {
@@ -1089,7 +1091,7 @@ article.active {
 }
 
 .select-list {
-    background: var(--eerie-black2);
+    background: rgba(0, 0, 0, 0.062);
     position: absolute;
     top: calc(100% + 6px);
     width: 100%;
@@ -1100,6 +1102,7 @@ article.active {
     visibility: hidden;
     pointer-events: none;
     transition: .5s ease-in-out;
+    backdrop-filter: blur(10px);
 }
 
 .filter-select.active+.select-list {
@@ -1109,8 +1112,8 @@ article.active {
 }
 
 .select-item button {
-    background: var(--eerie-black2);
-    color: var(--light-gray);
+    background: rgba(0, 0, 0, 0.062);
+    color: white;
     font-size: var(--fs6);
     font-weight: var(--fw300);
     text-transform: capitalize;
@@ -1191,9 +1194,9 @@ article.active {
 
 .project-item-icon-box {
     --scale: .8;
-
-    background: var(--jet);
-    color: var(--orange-yellow-crayola);
+    background: rgba(0, 0, 0, 0.226);
+    backdrop-filter: blur(5px);
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1233,6 +1236,27 @@ article.active {
     color: var(--dark-gray);
     font-size: var(--fs6);
     font-weight: var(--fw300);
+}
+
+.github-profile-link-project {
+    color: var(--dark-gray);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.github-profile-link-project a {
+    color: var(--dark-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.github-profile-link-project a:hover {
+    color: black;
 }
 
 /*BLOG*/
