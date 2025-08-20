@@ -195,7 +195,7 @@ const projectData = {
     'Resume Generator': {
         desc: 'A web-based application that helps users create professional resumes easily. Features include customizable templates, real-time previews, and downloadable PDF output.',
         link: 'https://github.com/uselessbruh/resume-generators',
-        img: '/assets/resumegenerator.png'
+        img: '/assets/resumegenerators.png'
     },
     'NucleoIDE': {
         desc: 'A modern Electron-based code editor inspired by VS Code, featuring a file explorer, Monaco editor, integrated multi-terminal, diagnostics, and output panels, designed for efficient development and seamless user experience.',
