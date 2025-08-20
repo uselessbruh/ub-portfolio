@@ -1,0 +1,21 @@
+<svg viewBox="0 0 75 85" xmlns="http://www.w3.org/2000/svg">
+  <!-- Controller body -->
+  <path fill="#333333" d="M20 25 C15 25 10 28 8 33 L8 40 C8 45 12 50 17 50 L25 50 C27 50 28 49 28 47 L28 45 L47 45 L47 47 C47 49 48 50 50 50 L58 50 C63 50 67 45 67 40 L67 33 C65 28 60 25 55 25 L20 25 Z"/>
+  <ellipse fill="#666666" cx="37.5" cy="37.5" rx="18" ry="10"/>
+  <!-- D-pad -->
+  <rect fill="#999999" x="18" y="35" width="8" height="2"/>
+  <rect fill="#999999" x="21" y="32" width="2" height="8"/>
+  <!-- Action buttons -->
+  <circle fill="#999999" cx="57" cy="33" r="2.5"/>
+  <circle fill="#999999" cx="52" cy="37" r="2.5"/>
+  <circle fill="#999999" cx="62" cy="37" r="2.5"/>
+  <circle fill="#999999" cx="57" cy="41" r="2.5"/>
+  <!-- Shoulder buttons -->
+  <rect fill="#666666" x="15" y="23" width="8" height="3" rx="1.5"/>
+  <rect fill="#666666" x="52" y="23" width="8" height="3" rx="1.5"/>
+  <!-- Analog sticks -->
+  <circle fill="#666666" cx="28" cy="42" r="4"/>
+  <circle fill="#999999" cx="28" cy="42" r="2.5"/>
+  <circle fill="#666666" cx="47" cy="42" r="4"/>
+  <circle fill="#999999" cx="47" cy="42" r="2.5"/>
+</svg>

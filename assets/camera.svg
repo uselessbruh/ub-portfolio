@@ -1,0 +1,21 @@
+<svg viewBox="0 0 75 85" xmlns="http://www.w3.org/2000/svg">
+  <!-- Camera body -->
+  <rect fill="#333333" x="10" y="25" width="55" height="35" rx="3"/>
+  <!-- Viewfinder -->
+  <rect fill="#333333" x="20" y="20" width="30" height="8" rx="2"/>
+  <rect fill="#666666" x="22" y="22" width="26" height="4" rx="1"/>
+  <!-- Lens system -->
+  <circle fill="#333333" cx="37.5" cy="42.5" r="15"/>
+  <circle fill="#666666" cx="37.5" cy="42.5" r="12"/>
+  <circle fill="#999999" cx="37.5" cy="42.5" r="8"/>
+  <circle fill="#333333" cx="37.5" cy="42.5" r="4"/>
+  <circle cx="37.5" cy="42.5" r="10" fill="none" stroke="#999999" stroke-width="0.5"/>
+  <circle cx="37.5" cy="42.5" r="6" fill="none" stroke="#999999" stroke-width="0.5"/>
+  <!-- Flash -->
+  <rect fill="#666666" x="55" y="28" width="6" height="4" rx="1"/>
+  <!-- Camera grip -->
+  <path fill="#666666" d="M10 35 L8 35 C6 35 5 36 5 38 L5 50 C5 52 6 53 8 53 L10 53"/>
+  <!-- Controls -->
+  <circle fill="#999999" cx="45" cy="32" r="1.5"/>
+  <circle fill="#999999" cx="50" cy="32" r="1"/>
+</svg>

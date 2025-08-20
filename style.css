@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #66005e2c;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas#neuro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    opacity: .95;
+    z-index: 1;
+}
+
+.maincontent{
+    height: 100vh;
+    color: transparent;    
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    overflow-y:scroll ;
+    overflow-x: hidden;
+}

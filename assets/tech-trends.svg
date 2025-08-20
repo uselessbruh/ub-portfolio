@@ -1,0 +1,25 @@
+<svg viewBox="0 0 75 85" xmlns="http://www.w3.org/2000/svg">
+  <!-- PCB Background -->
+  <rect fill="#666666" x="5" y="5" width="65" height="50" rx="3" opacity="0.3"/>
+  <!-- Main processor -->
+  <rect fill="#333333" x="25" y="22" width="25" height="16" rx="2"/>
+  <rect fill="#999999" x="27" y="24" width="21" height="12" rx="1"/>
+  <!-- Circuit traces -->
+  <path d="M15 15 L25 15 L25 25 L50 25 L50 15 L60 15" fill="none" stroke="#666666" stroke-width="2"/>
+  <path d="M15 45 L25 45 L25 35 L50 35 L50 45 L60 45" fill="none" stroke="#666666" stroke-width="2"/>
+  <path d="M15 30 L25 30" fill="none" stroke="#666666" stroke-width="2"/>
+  <path d="M50 30 L60 30" fill="none" stroke="#666666" stroke-width="2"/>
+  <!-- Components -->
+  <circle fill="#333333" cx="15" cy="15" r="3"/>
+  <circle fill="#333333" cx="60" cy="15" r="3"/>
+  <circle fill="#333333" cx="15" cy="45" r="3"/>
+  <circle fill="#333333" cx="60" cy="45" r="3"/>
+  <rect fill="#333333" x="13" y="28" width="4" height="4" rx="1"/>
+  <rect fill="#333333" x="58" y="28" width="4" height="4" rx="1"/>
+  <!-- Capacitors -->
+  <rect fill="#666666" x="35" y="12" width="3" height="8" rx="1"/>
+  <rect fill="#666666" x="40" y="40" width="3" height="8" rx="1"/>
+  <!-- Resistors -->
+  <rect fill="#999999" x="18" y="20" width="6" height="2" rx="1"/>
+  <rect fill="#999999" x="51" y="38" width="6" height="2" rx="1"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 70 85" xmlns="http://www.w3.org/2000/svg">
+  <!-- Staff lines -->
+  <line x1="10" y1="25" x2="60" y2="25" stroke="#999999" stroke-width="1"/>
+  <line x1="10" y1="30" x2="60" y2="30" stroke="#999999" stroke-width="1"/>
+  <line x1="10" y1="35" x2="60" y2="35" stroke="#999999" stroke-width="1"/>
+  <line x1="10" y1="40" x2="60" y2="40" stroke="#999999" stroke-width="1"/>
+  <line x1="10" y1="45" x2="60" y2="45" stroke="#999999" stroke-width="1"/>
+  
+  <!-- First eighth note -->
+  <ellipse fill="#333333" cx="20" cy="37" rx="3" ry="2" transform="rotate(-20 20 37)"/>
+  <rect fill="#333333" x="22.5" y="15" width="2" height="22"/>
+  <!-- Flag for eighth note -->
+  <path fill="#333333" d="M24.5 15 C28 15 30 18 29 22 C28 25 26 24 24.5 22 Z"/>
+  
+  <!-- Second eighth note -->
+  <ellipse fill="#333333" cx="30" cy="32" rx="3" ry="2" transform="rotate(-20 30 32)"/>
+  <rect fill="#333333" x="32.5" y="12" width="2" height="20"/>
+  <!-- Flag for eighth note -->
+  <path fill="#333333" d="M34.5 12 C38 12 40 15 39 19 C38 22 36 21 34.5 19 Z"/>
+  
+  <!-- Beamed eighth notes -->
+  <ellipse fill="#333333" cx="42" cy="35" rx="3" ry="2" transform="rotate(-20 42 35)"/>
+  <rect fill="#333333" x="44.5" y="15" width="2" height="20"/>
+  <ellipse fill="#333333" cx="52" cy="30" rx="3" ry="2" transform="rotate(-20 52 30)"/>
+  <rect fill="#333333" x="54.5" y="12" width="2" height="18"/>
+  <!-- Beam connecting the notes -->
+  <path fill="#333333" d="M44.5 15 L56.5 12 L56.5 15 L46.5 18 Z"/>
+</svg>

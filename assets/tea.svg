@@ -1,0 +1,15 @@
+<svg viewBox="0 0 75 85" xmlns="http://www.w3.org/2000/svg">
+  <!-- Steam -->
+  <path d="M25 12 C25 8 27 6 29 8 C31 10 29 12 27 14 C25 16 27 18 29 20" fill="none" stroke="#999999" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M32 10 C32 6 34 4 36 6 C38 8 36 10 34 12 C32 14 34 16 36 18" fill="none" stroke="#999999" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M39 12 C39 8 41 6 43 8 C45 10 43 12 41 14 C39 16 41 18 43 20" fill="none" stroke="#999999" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Cup -->
+  <path fill="#333333" d="M15 25 L15 48 C15 52 18 55 22 55 L48 55 C52 55 55 52 55 48 L55 25 Z"/>
+  <ellipse fill="#666666" cx="35" cy="25" rx="20" ry="3"/>
+  <ellipse fill="#666666" cx="35" cy="28" rx="18" ry="2"/>
+  <!-- Handle -->
+  <path d="M55 30 L60 30 C63 30 66 33 66 36 L66 42 C66 45 63 48 60 48 L55 48" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round"/>
+  <!-- Saucer -->
+  <ellipse fill="#999999" cx="35" cy="58" rx="25" ry="3"/>
+  <ellipse fill="#666666" cx="35" cy="57" rx="22" ry="2"/>
+</svg>

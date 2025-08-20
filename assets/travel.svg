@@ -1,0 +1,28 @@
+<svg viewBox="0 0 80 85" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main fuselage -->
+  <ellipse fill="#333333" cx="37.5" cy="35" rx="25" ry="6"/>
+  <!-- Nose -->
+  <path fill="#333333" d="M12 35 C8 35 5 32 8 30 C11 28 11 42 8 40 C5 38 8 35 12 35"/>
+  <!-- Tail -->
+  <path fill="#333333" d="M63 35 L70 35 L68 28 L63 30 L63 40 L68 42 L70 35"/>
+  <!-- Wings -->
+  <ellipse fill="#666666" cx="37.5" cy="35" rx="30" ry="12"/>
+  <ellipse fill="#333333" cx="37.5" cy="35" rx="28" ry="4"/>
+  <rect fill="#999999" x="20" y="33" width="35" height="4" rx="2"/>
+  <!-- Engines -->
+  <ellipse fill="#333333" cx="28" cy="42" rx="6" ry="3"/>
+  <ellipse fill="#333333" cx="47" cy="42" rx="6" ry="3"/>
+  <ellipse fill="#666666" cx="28" cy="42" rx="4" ry="2"/>
+  <ellipse fill="#666666" cx="47" cy="42" rx="4" ry="2"/>
+  <!-- Vertical stabilizer -->
+  <path fill="#333333" d="M63 20 L70 15 L72 25 L68 28 L63 30"/>
+  <!-- Windows -->
+  <circle fill="#999999" cx="25" cy="32" r="1"/>
+  <circle fill="#999999" cx="30" cy="32" r="1"/>
+  <circle fill="#999999" cx="35" cy="32" r="1"/>
+  <circle fill="#999999" cx="40" cy="32" r="1"/>
+  <circle fill="#999999" cx="45" cy="32" r="1"/>
+  <circle fill="#999999" cx="50" cy="32" r="1"/>
+  <!-- Cockpit -->
+  <path fill="#666666" d="M15 32 L22 30 L22 40 L15 38 Z"/>
+</svg>
